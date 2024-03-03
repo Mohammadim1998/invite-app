@@ -3,17 +3,9 @@ import MessageBox from "../Messages/messageBox";
 
 const Tickets = () => {
     return (
-        <div className="px-4 pt-[10px] pb-[56px]">
+        <div className="px-4 pb-[70px]">
             <MessageBox ff={3} />
             <MessageBox ff={1} />
-            <MessageBox ff={2} />
-            <MessageBox ff={1} />
-            <MessageBox ff={3} />
-            <MessageBox ff={3} />
-            <MessageBox ff={1} />
-            <MessageBox ff={2} />
-            <MessageBox ff={1} />
-            <MessageBox ff={3} />
         </div>
     );
 }

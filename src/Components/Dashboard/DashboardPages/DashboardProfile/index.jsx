@@ -31,7 +31,7 @@ const DashboardProfile = () => {
                         <span className="text-[#CF8700]">در حال بررسی</span>
                     </div>
                 </div>
-                <div className="rounded-[40px] bg-white w-full p-[103px_24px_65px_24px] mt-[40%]">
+                <div className="rounded-[40px] bg-white w-full p-[103px_24px_75px_24px] mt-[40%]">
                     <div className="container w-full h-full">
                         <span className="text-[#3A3A3AA6] font-semibold text-sm leading-5">تنظیمات شمع من</span>
 

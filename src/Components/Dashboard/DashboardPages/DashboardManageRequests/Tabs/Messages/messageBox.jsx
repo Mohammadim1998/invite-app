@@ -10,7 +10,7 @@ const messageBox = ({ ff }) => {
                     </div>
                 </div>
             </div>
-            <div className="">
+            <div className="w-[100px] h-[22px]">
                 {
                     ff == 1 ? (
                         <span className="text-[#C58200] font-normal text-[10px] leading-4 bg-[#FFBA331A] p-[3px_6px_3px_6px] rounded-[3px]">در حال بررسی</span>

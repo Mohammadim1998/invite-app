@@ -85,3 +85,14 @@ body {
     /*background: #27328E;*/
   }
 }
+
+
+.sliderContainer {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.sliderContainer::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}

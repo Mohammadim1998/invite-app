@@ -1,8 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Box from "../DashboardLocation/box";
-import { Link } from "iconsax-react";
-
+import Link from "next/link";
 
 const DashboardLocation = () => {
     const [locId, setLocId] = useState();
@@ -44,17 +43,17 @@ const DashboardLocation = () => {
                             setLocId()
                         }
                         }
-                        className="absolute -top-5 left-[50%] translate-x-[-50%] w-10 h-5 bg-green-600"></div>
+                        className="absolute top-2 left-[50%] translate-x-[-50%] w-[64px] h-[5px] bg-[#D9D9D9] rounded-md"></div>
 
-                    <div className=" font-bold flex flex-col gap-y-[6px]">
-                        <h1 className=" text-[13px] leading-5 text-right text-[#3A3A3A]">{locId?.title}</h1>
-                        <h3 className=" text-[11px] leading-4 text-right text-[#818181]">{locId?.subTitle}</h3>
+                    <div className="font-bold flex flex-col ">
+                        <h1 className="text-[13px] leading-5 text-right text-[#3A3A3A] mb-[6px]">{locId?.title}</h1>
+                        <h3 className="text-[11px] leading-4 text-right text-[#818181]">{locId?.subTitle}</h3>
                     </div>
                     <div className="flex justify-start items-center gap-x-[5px] mt-4">
                         <div className="w-4 h-4 flex justify-center items-center mr-[1px]">
                             <img src="/images/svg/leftArrowSharpBlue.svg" className="w-[11px] h-[10px]" />
                         </div>
-                        <Link href={"#"} className="text-[#1D266C]  font-bold text-xs leading-5 text-right">اطلاعات بیشتر</Link>
+                        <Link href={"#"} className="text-[#1D266C] font-bold text-xs leading-5 text-right">اطلاعات بیشتر</Link>
                     </div>
                     <div className="w-full border-[1px] bg-[#0000001A] mt-2 mb-[10px]"></div>
 

@@ -37,9 +37,9 @@ const DashboardHome = () => {
                 <SectionHeader title={"خدمات شمع"} btnTitle={"مشاهده همه"} />
                 <div className="w-full flex justify-between items-center mt-[14px] px-4">
                     <SquareBoxDashboard img={"/images/svg/squareIcon-1.svg"} title={"گواهی تبلیغی"} />
-                    <SquareBoxDashboard img={"/images/svg/squareIcon-1.svg"} title={"گواهی تبلیغی"} />
-                    <SquareBoxDashboard img={"/images/svg/squareIcon-1.svg"} title={"گواهی تبلیغی"} />
-                    <SquareBoxDashboard img={"/images/svg/squareIcon-1.svg"} title={"گواهی تبلیغی"} />
+                    <SquareBoxDashboard img={"/images/svg/personIcon.svg"} title={"گروه  تبلیغی"} />
+                    <SquareBoxDashboard img={"/images/svg/bookIcon.svg"} title={"محتوای تبلیغی"} />
+                    <SquareBoxDashboard img={"/images/svg/pageIcon.svg"} title={"اطلاعیه‌ها"} />
                 </div>
 
                 <div className="w-full mt-[26px] px-4 mb-[26px]">
