@@ -1,7 +1,7 @@
-import MessageBox from "../Messages/messageBox";
+import MessageBox from "../Invites/messageBox";
 
 
-const Tickets = () => {
+const CertificationADV = () => {
     return (
         <div className="px-4 pb-[70px]">
             <MessageBox ff={3} />
@@ -10,4 +10,4 @@ const Tickets = () => {
     );
 }
 
-export default Tickets;
+export default CertificationADV;

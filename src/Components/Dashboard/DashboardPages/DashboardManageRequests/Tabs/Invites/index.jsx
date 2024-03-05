@@ -1,6 +1,6 @@
 import MessageBox from "./messageBox";
 
-const Messages = () => {
+const Invites = () => {
     return (
         <div className="w-full px-4 pb-[70px]">
                 <MessageBox ff={1} />
@@ -15,4 +15,4 @@ const Messages = () => {
     );
 }
 
-export default Messages;
+export default Invites;

@@ -1,14 +1,15 @@
-import Image from "next/image";
 
 const Loading = () => {
     return (
-        <div className="flex justify-center items-center p-12">
-            <Image
-                alt="loading"
-                width={120}
-                height={120}
-                src={"/loading.svg"}
-            />
+        <div className="w-screen h-screen flex justify-center items-center p-12">
+            <div className="typing-indicator">
+                <div className="typing-circle"></div>
+                <div className="typing-circle"></div>
+                <div className="typing-circle"></div>
+                <div className="typing-shadow"></div>
+                <div className="typing-shadow"></div>
+                <div className="typing-shadow"></div>
+            </div>
         </div>
     );
 }
