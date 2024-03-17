@@ -3,7 +3,7 @@
 const Btn = ({ img, img1, setContent, title, content, active, setActive }) => {
 
     return (
-        <button
+        <div className="w-full"
             onClick={() => {
                 setContent(content);
                 setActive(content);
@@ -17,7 +17,7 @@ const Btn = ({ img, img1, setContent, title, content, active, setActive }) => {
                     ? "text-[#2B39A1] font-medium text-[11px] leading-4"
                     : "text-[#818181CC] font-medium text-[10px] leading-4"}>{title}</span>
             </div>
-        </button>
+        </div>
     );
 }
 

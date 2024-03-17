@@ -17,6 +17,7 @@ module.exports = {
         "AnjomanMedium": "AnjomanMedium",
         "AnjomanSemiBold": "AnjomanSemiBold",
         "AnjomannnULTRABOLD": "AnjomanULTRABOLD",
+        "IRANSansXFaNum-Medium": "IRANSansXFaNumMedium",
       },
     },
   },

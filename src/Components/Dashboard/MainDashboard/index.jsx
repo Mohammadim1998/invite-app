@@ -28,7 +28,7 @@ const mainDashboard = () => {
     return (
         <div className="relative w-full">
             {detail}
-            <section className="fixed bottom-0 left-0 ">
+            <section className="z-30 w-screen fixed bottom-0 left-0">
                 <DashboardCTRL setContent={setContent} />
             </section>
         </div>
